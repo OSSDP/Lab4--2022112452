@@ -21,7 +21,7 @@ class L2022112452_17_Test {
         assertTrue(compareLists(output1, expected1), "Test case 1 failed.");
 
         // Test case 2: All characters are the same, only one repeated sequence
-        String input2 = "AAAAAAAAAAAAA";
+        String input2 = "AAAAAAA111AAAAAA";
         List<String> expected2 = new ArrayList<>();
         expected2.add("AAAAAAAAAA");
         List<String> output2 = sol.findRepeatedDnaSequences(input2);
